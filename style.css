@@ -1,0 +1,139 @@
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(235, 248, 228);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header > div {
+    margin-top: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsla(133, 96%, 11%, 0.781);
+    backdrop-filter: saturate(140%) blur(8px);
+    border-radius: 0px 0px 10px 20px;
+    align-items: center;
+    position: fixed;
+    padding: 5px;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: transparent;
+}
+
+.btn-style {
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.opciones-nav {
+    border: 2px solid transparent;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.opciones-nav:last-child {
+    background-color: rgb(52, 192, 52);
+}
+
+.opciones-nav:hover {
+    border-bottom: 2px solid white;
+}
+
+.lista-opciones {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+#header-logo-instituto {
+    width: 60px;
+}
+
+.logo-titulo {
+    display: flex;
+    gap: 5px;
+    color: white;
+    font-size: small;
+    align-items: center;
+}
+
+.header-box-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-info-text, .box-info-img {
+    width: 35%;
+}
+
+.box-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box-info-text > h3 {
+    font-size: 42px;
+    word-wrap: break-word;
+}
+
+.box-info-text > p {
+    color: rgb(70, 69, 69);
+}
+
+.btns-info-text {
+    display: flex;
+    gap: 5px;
+}
+
+#btn-wsp-header {
+    background-color: rgb(52, 192, 52);
+    color: white;
+}
+
+#btn-ubi-header {
+    background-color: rgb(135, 75, 190);
+    color: white;
+}
+
+#btn-call-header {
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+
+.box-info-img > img {
+    border-radius: 20px 5px;
+}
+
+.box-info-text p {
+    word-wrap: break-word;
+}
+
+.texto-llamativo {
+    color: rgb(243, 132, 28);
+}
